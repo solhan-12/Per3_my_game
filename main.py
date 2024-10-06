@@ -1,4 +1,4 @@
-# This file was created by: Chris Cozort (PER 3)
+# This file was created by: Sol han (PER 3)
 
 # IMPORT ALL NECESSARY MODULES AND LIBRARIES
 import pygame as pg
@@ -19,7 +19,7 @@ class Game:
         pg.init()
         pg.mixer.init()
         self.screen = pg.display.set_mode((WIDTH, HEIGHT))
-        pg.display.set_caption("Chris' Game")
+        pg.display.set_caption("Sol Han' Game")
         self.clock = pg.time.Clock()
         self.running = True
     # create player block, creates the all_sprites group so that we can batch update and render, defines properties that can be seen in the game system
